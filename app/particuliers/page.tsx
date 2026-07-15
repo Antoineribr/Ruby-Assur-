@@ -6,6 +6,7 @@ import { CheckCircle, Clock, PhoneCall, ShieldCheck, Users } from "lucide-react"
 export const metadata: Metadata = {
   title: "Assurances Particuliers",
   description: "Ruby Assur' vous accompagne pour toutes vos assurances particuliers : auto, habitation, mutuelle santé, assurance emprunteur. Devis gratuit.",
+  alternates: { canonical: "/particuliers" },
 };
 
 const products = getProductsByAudience("particulier");

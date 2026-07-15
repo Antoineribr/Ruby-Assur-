@@ -6,6 +6,7 @@ import { CheckCircle, Clock, PhoneCall, ShieldCheck, Users } from "lucide-react"
 export const metadata: Metadata = {
   title: "Assurances Professionnels",
   description: "Ruby Assur' accompagne les professionnels : RC Pro, décennale, flotte VTC, multirisque pro, création d'entreprise. Devis gratuit.",
+  alternates: { canonical: "/professionnels" },
 };
 
 const products = getProductsByAudience("pro");

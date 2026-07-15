@@ -4,6 +4,7 @@ import { legalInfo } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Mentions légales",
   description: "Mentions légales de Ruby Assur’, courtier en assurance indépendant, RCS Soissons, ORIAS 24007878.",
+  alternates: { canonical: "/mentions-legales" },
 };
 
 const entries = [

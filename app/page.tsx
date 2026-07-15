@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { TrustBadges } from "@/components/TrustBadges";
@@ -8,6 +9,10 @@ import { ReviewsCarousel } from "@/components/ReviewsCarousel";
 import { HeroReviews, HeroReviewsMobile } from "@/components/HeroReviews";
 import { Home as HomeIcon, Building2, Shield, BarChart3, User, CheckCircle } from "lucide-react";
 import { getProductsByAudience } from "@/lib/products";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 const particulierProducts = getProductsByAudience("particulier");
 const proProducts = getProductsByAudience("pro");

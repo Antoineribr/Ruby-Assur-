@@ -6,6 +6,7 @@ import { legalInfo } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Réclamations",
   description: "Informations sur le traitement des réclamations pour Ruby Assur’, courtier en assurance indépendant.",
+  alternates: { canonical: "/reclamations" },
 };
 
 export default function ClaimsPage() {

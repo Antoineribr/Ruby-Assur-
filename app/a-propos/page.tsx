@@ -6,6 +6,7 @@ import { brand, legalInfo } from "@/lib/site";
 export const metadata: Metadata = {
   title: "À propos",
   description: "Découvrez Ruby Assur', courtier en assurances indépendant dans l'Aisne. ORIAS 24007878.",
+  alternates: { canonical: "/a-propos" },
 };
 
 const phone = process.env.NEXT_PUBLIC_PHONE ?? "0671551931";

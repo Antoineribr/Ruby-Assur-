@@ -6,6 +6,7 @@ import { Phone, Mail, MapPin, Clock, CalendarDays } from "lucide-react";
 export const metadata: Metadata = {
   title: "Contact — Demande de devis gratuit",
   description: "Contactez Ruby Assur' pour une demande de devis gratuit en assurance auto, habitation, mutuelle, RC Pro et plus. Réponse sous 24h.",
+  alternates: { canonical: "/contact" },
 };
 
 const phone = process.env.NEXT_PUBLIC_PHONE ?? "0671551931";

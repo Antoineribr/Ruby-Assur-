@@ -4,6 +4,7 @@ import { legalInfo } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Politique de confidentialité — Ruby Assur'",
   description: "Politique de confidentialité de Ruby Assur', courtier en assurance immatriculé ORIAS 24007878.",
+  alternates: { canonical: "/politique-confidentialite" },
 };
 
 export default function PrivacyPage() {
