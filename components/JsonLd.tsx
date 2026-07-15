@@ -18,14 +18,6 @@ const jsonLd = {
     "Ruby Assur', courtier en assurances indépendant (ORIAS 24007878) dans l'Aisne. Assurance auto, habitation, mutuelle, RC Pro, décennale. Devis gratuit et sans engagement.",
   telephone: phoneE164,
   email,
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "44 avenue du Bois Roger",
-    postalCode: "02200",
-    addressLocality: "Pasly",
-    addressRegion: "Aisne",
-    addressCountry: "FR",
-  },
   areaServed: [
     { "@type": "AdministrativeArea", name: "Aisne" },
     { "@type": "Country", name: "France" },
